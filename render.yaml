@@ -1,0 +1,7 @@
+builds:
+  - type: node
+    name: wallet-backend
+    env: node
+    buildCommand: cd Backend && pnpm install
+    startCommand: cd Backend && pnpm start
+    rootDirectory: /
